@@ -16,6 +16,8 @@ const ctx = canvas.getContext('2d')
 const width = canvas.clientWidth
 const height = canvas.clientHeight
 
+document.documentElement.scrollLeft = 2500
+
 const drawTree = () => {
   ctx.clearRect(0, 0, width, height)
   tree.draw(ctx, width, height)
